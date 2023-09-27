@@ -32,11 +32,7 @@ public class Result {
 
     private double marksScored;
 
-
-
     private String submitDateTime;
-
-
 
     public String getSubmitDateTime() {
         return submitDateTime;

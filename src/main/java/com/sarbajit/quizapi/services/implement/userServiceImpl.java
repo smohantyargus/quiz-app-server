@@ -20,7 +20,7 @@ public class userServiceImpl implements UserService {
     @Override
     public User createUser(User user, Set<userRole> userRoles) throws Exception {
 
-        User local =this.userRepository.findByuserName(user.getUserName());
+        User local = this.userRepository.findByuserName(user.getUserName());
 
         if(local !=null)
         {

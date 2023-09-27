@@ -35,7 +35,6 @@ public class User  implements UserDetails {
     @JsonIgnore
     private List<Result> results=new ArrayList<>();
 
-
     public List<Result> getResults() {
         return results;
     }
@@ -52,7 +51,6 @@ public class User  implements UserDetails {
         this.userRoles = userRoles;
     }
 
-
     public String getProfile() {
         return profile;
     }
@@ -62,7 +60,6 @@ public class User  implements UserDetails {
     }
 
     public User() {
-
     }
 
     public Long getId() {

@@ -34,7 +34,6 @@ public class Role
         return roleId;
     }
 
-
     public void setRoleId(long roleId) {
         this.roleId = roleId;
     }

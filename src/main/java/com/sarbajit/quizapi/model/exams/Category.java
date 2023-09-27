@@ -20,7 +20,6 @@ public class Category {
     @JsonIgnore
     private Set<Quiz> quizzes=new LinkedHashSet<>();
 
-
     public Category() {
     }
 

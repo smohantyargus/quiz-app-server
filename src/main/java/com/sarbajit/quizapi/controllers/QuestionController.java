@@ -24,10 +24,7 @@ public class QuestionController {
     //add question
 
     @PostMapping("/")
-    public ResponseEntity<?> addQuestion(@RequestBody Question question)
-    {
-        System.out.println("hidifjsidho");
-        System.out.println(question);
+    public ResponseEntity<?> addQuestion(@RequestBody Question question) {
         return ResponseEntity.ok(this.questionService.addQuestion(question));
     }
 

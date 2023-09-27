@@ -49,7 +49,6 @@ public class QuizController {
     @DeleteMapping("/{qid}")
     public void deleteQuiz(@PathVariable("qid") Long qid)
     {
-        System.out.println("Delteing quiz"+qid);
         this.quizService.deleteQuiz(qid);
     }
 

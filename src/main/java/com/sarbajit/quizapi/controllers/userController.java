@@ -43,15 +43,12 @@ public class userController {
     @GetMapping("/{userName}")
     public User getUser(@PathVariable("userName") String uname)
     {
-        System.out.println(uname);
-
         return this.userService.getUser(uname);
     }
 
     @DeleteMapping("/{userId}")
     public void deleteUser(@PathVariable("userId") Long uid)
     {
-        System.out.println(uid);
         this.userService.deleteUser(uid);
     }
 

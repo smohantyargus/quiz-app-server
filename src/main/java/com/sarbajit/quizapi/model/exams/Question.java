@@ -18,7 +18,6 @@ public class Question {
 
     private  String answer;
 
-
     @ManyToOne(fetch = FetchType.EAGER)
     private  Quiz quiz;
 
